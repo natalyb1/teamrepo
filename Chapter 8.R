@@ -26,6 +26,8 @@ tibble(
   e = sample(letters, 1e3, replace = TRUE)
 )
 
+library(nycflights13)
+
 nycflights13::flights %>% 
   print(n = 10, width = Inf)
 
