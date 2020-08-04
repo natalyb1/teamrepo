@@ -136,8 +136,9 @@ provides a tibble with the name of the variable as the column variable and the v
 6. What option controls how many additional column names are printed at the footer of a tibble?
 
 n_extra argument in print function on a tibble
-
+```{r}
 package?tibble
 ?print.tbl
 
 print(nycflights13::flights, n_extra=5)
+```
